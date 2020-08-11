@@ -8,18 +8,18 @@
 
 /* Begin PBXBuildFile section */
 		4FB329BB24DC1345001A7C66 /* ShortcatsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FB329BA24DC1345001A7C66 /* ShortcatsApp.swift */; };
-		4FB329BD24DC1345001A7C66 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FB329BC24DC1345001A7C66 /* ContentView.swift */; };
 		4FB329BF24DC1346001A7C66 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4FB329BE24DC1346001A7C66 /* Assets.xcassets */; };
 		4FB329C224DC1346001A7C66 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4FB329C124DC1346001A7C66 /* Preview Assets.xcassets */; };
+		4FB329CA24DC1AE1001A7C66 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FB329C924DC1AE1001A7C66 /* ContentView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		4FB329B724DC1345001A7C66 /* Shortcats.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Shortcats.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4FB329BA24DC1345001A7C66 /* ShortcatsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShortcatsApp.swift; sourceTree = "<group>"; };
-		4FB329BC24DC1345001A7C66 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		4FB329BE24DC1346001A7C66 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4FB329C124DC1346001A7C66 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		4FB329C324DC1346001A7C66 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4FB329C924DC1AE1001A7C66 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,7 +53,7 @@
 			isa = PBXGroup;
 			children = (
 				4FB329BA24DC1345001A7C66 /* ShortcatsApp.swift */,
-				4FB329BC24DC1345001A7C66 /* ContentView.swift */,
+				4FB329C924DC1AE1001A7C66 /* ContentView.swift */,
 				4FB329BE24DC1346001A7C66 /* Assets.xcassets */,
 				4FB329C324DC1346001A7C66 /* Info.plist */,
 				4FB329C024DC1346001A7C66 /* Preview Content */,
@@ -138,7 +138,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4FB329BD24DC1345001A7C66 /* ContentView.swift in Sources */,
+				4FB329CA24DC1AE1001A7C66 /* ContentView.swift in Sources */,
 				4FB329BB24DC1345001A7C66 /* ShortcatsApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
